@@ -38,5 +38,10 @@ namespace JobOMeter
             cmbMes.SelectedIndex = 0;
             cmbAno.SelectedIndex = 0;
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
