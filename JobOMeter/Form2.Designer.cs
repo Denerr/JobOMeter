@@ -204,6 +204,7 @@ namespace JobOMeter
             this.txtSaiUm.Size = new System.Drawing.Size(100, 20);
             this.txtSaiUm.TabIndex = 10;
             this.txtSaiUm.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSaiUm.Leave += new System.EventHandler(this.txtSaiUm_Leave);
             // 
             // label2
             // 
@@ -221,6 +222,7 @@ namespace JobOMeter
             this.txtSaiDois.Size = new System.Drawing.Size(100, 20);
             this.txtSaiDois.TabIndex = 14;
             this.txtSaiDois.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSaiDois.Leave += new System.EventHandler(this.txtSaiDois_Leave);
             // 
             // label3
             // 
@@ -238,6 +240,7 @@ namespace JobOMeter
             this.txtEntDois.Size = new System.Drawing.Size(100, 20);
             this.txtEntDois.TabIndex = 12;
             this.txtEntDois.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtEntDois.Leave += new System.EventHandler(this.txtEntDois_Leave);
             // 
             // label4
             // 
